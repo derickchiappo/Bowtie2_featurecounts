@@ -1,0 +1,46 @@
+name: trimgalore
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h0d85af4_4
+  - ca-certificates=2023.5.7=h8857fd0_0
+  - cffi=1.15.1=py310ha78151a_3
+  - cutadapt=4.4=py310he07d9a1_1
+  - dnaio=0.10.0=py310he07d9a1_3
+  - expat=2.5.0=hf0c8a7f_1
+  - fastqc=0.12.1=hdfd78af_0
+  - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+  - fontconfig=2.14.2=h5bb23bf_0
+  - freetype=2.12.1=h3f81eb7_1
+  - isa-l=2.30.0=h0d85af4_4
+  - libcxx=16.0.4=hd57cbcb_0
+  - libexpat=2.5.0=hf0c8a7f_1
+  - libffi=3.4.2=h0d85af4_5
+  - libpng=1.6.39=ha978bb4_0
+  - libsqlite=3.42.0=h58db7d2_0
+  - libzlib=1.2.13=hfd90126_4
+  - ncurses=6.3=h96cf925_1
+  - openjdk=17.0.3=h7d26f99_8
+  - openssl=3.1.0=h8a1eda9_3
+  - pbzip2=1.1.13=h9d27c22_1
+  - perl=5.32.1=2_h0d85af4_perl5
+  - pigz=2.6=h5dbffcc_0
+  - pip=23.1.2=pyhd8ed1ab_0
+  - pycparser=2.21=pyhd8ed1ab_0
+  - python=3.10.11=he7542f4_0_cpython
+  - python-isal=1.1.0=py310h6729b98_2
+  - python_abi=3.10=3_cp310
+  - readline=8.2=h9e318b2_1
+  - setuptools=67.7.2=pyhd8ed1ab_0
+  - tk=8.6.12=h5dbffcc_0
+  - trim-galore=0.6.10=hdfd78af_0
+  - tzdata=2023c=h71feb2d_0
+  - wheel=0.40.0=pyhd8ed1ab_0
+  - xopen=1.7.0=py310h2ec42d9_2
+  - xz=5.2.6=h775f41a_0
+  - zlib=1.2.13=hfd90126_4
+  - zstandard=0.19.0=py310h3cf44b0_1
+  - zstd=1.5.2=hbc0c0cd_6
+prefix: /Users/derickchiappo/opt/miniconda3/envs/trimgalore

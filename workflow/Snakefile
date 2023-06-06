@@ -1,0 +1,28 @@
+from snakemake.utils import min_version
+
+min_version("7.18.0")
+
+configfile: "config/config.yaml"
+
+include: "rules/common.smk"
+include: "rules/bowtie2_reference.smk"
+include: "rules/rseqc_distribution.smk"
+include: "rules/rseqc_strandness.smk"
+include: "rules/rseqc_bam_stats.smk"
+include: "rules/combine_qc.smk"
+include: "rules/rseqc_body_coverage.smk"
+include: "rules/trimgalore.smk"
+include: "rules/fastqc_1.smk"
+include: "rules/fastqc_2.smk"
+include: "rules/trimmed_fastqc_1.smk"
+include: "rules/trimmed_fastqc_2.smk"
+include: "rules//bowtie2_align.smk"
+include: "rules/samtools_sort.smk"
+include: "rules/samtools_index.smk"
+include: "rules/generate_counts.smk"
+include: "rules/text_to_csv.smk"
+
+rule all:
+    input:
+        "workflow/data/Rseqc/multiqc/multiqc_report.html",
+        "workflow/data/counts/counts.csv"
