@@ -1,0 +1,10 @@
+
+samples: config/samples.csv
+
+annotation_file: "workflow/data/gencode.vM31.basic.annotation.gtf.gz"
+
+genome_fasta_file: "workflow/data/GRCm39.genome.fa.gz"
+
+strain: GRCm39
+
+house_keeping_gene_file: "workflow/data/GRCm39_GENCODE_VM27.bed"
