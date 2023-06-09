@@ -1,4 +1,4 @@
-# Bowtie2_featurecounts
+# Bowtie2_featurecounts_pipeline
 Bulk RNA-Seq pipeline using Bowtie2 and featurecounts
 
 
