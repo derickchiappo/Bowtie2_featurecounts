@@ -1,0 +1,3 @@
+The test data can be found on on ENA with project ID: PRJEB26391. 
+
+Please cite this project ID if running the pipeline using the test data. 
