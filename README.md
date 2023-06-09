@@ -1,5 +1,5 @@
 # Bowtie2_featurecounts_pipeline
-Bulk RNA-Seq pipeline using Bowtie2 and featurecounts
+A pipeline for paired bulk RNA-Seq data that generates a .csv file with count data for differential analysis. 
 
 
 The test data is downloaded from ENA project: PRJEB26391. Please cite as appropriate if using the test data
